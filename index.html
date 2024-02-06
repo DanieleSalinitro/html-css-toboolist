@@ -15,37 +15,52 @@
         <h1>Toboolist</h1>
     </header>
     <main>
-        <article>
-            <div id="box1">
-                <span>Add Task</span>
-            </div>
-            <div id="box2">
-                <span>Add Section</span>
-            </div>
+        <article class="radius-top">
+            <div class="container">
+                <input class="button c-white bg-bluesky border-bluesky" type="button" value="Add Task">
+                <input class="button c-grey border-grey" type="button" value="Add Section">
+            </div>    
         </article>
-        <article>
+        <article class="c-softblack radius-bottom">
             <details>
                 <summary>New Task</summary>
                 <ul>
-                    <li><span class="greencheck">&check;</span>Quarterly Newsletter</li>
+                    <li><div class="greencheck">&check;</div><Span>Quarterly Newsletter</Span>
+                        <div class="box bg-bluesky">Editorial</div>
+                    </li>
                 </ul>
             </details>
             <details>
                 <summary>Today</summary>
                 <ul>
-                    <li><span class="greencheck">&check;</span>Recruiting blog post</li>
-                    <li><span class="greencheck">&check;</span>Mobile app launch</li>
-                    <li><span class="redcross">&cross;</span>Interview John H.</li>
-                    <li><span class="greencheck">&check;</span>Summit update to mobile storefronts</li>
+                    <li><div class="greencheck">&check;</div><span>Recruiting blog post</span>
+                        <div class="box bg-bluesky">Editorial</div>
+                    </li>
+                    <li><div class="greencheck">&check;</div><span>Mobile app launch</span>
+                        <div class="box bg-lilac">Q1 Goals</div>
+                    </li>
+                    <li><div class="redcross">&cross;</div><span>Interview John H.</span>
+                        <div class="box bg-gemstonegreen">Recruiting</div>
+                    </li>
+                    <li><div class="greencheck">&check;</div><span>Summit update to mobile storefronts</span>
+                        <div class="box bg-orange">Mobile</div>
+                    </li>
                 </ul>
             </details>
             <details>
                 <summary>Upcoming</summary>
                 <ul>
-                    <li><span class="redcross">&cross;</span>Schedule meeting with Alex</li>
-                    <li><span  class="greencheck">&check;</span>Homepage refresh</li>
-                    <li><span class="greencheck">&check;</span>Onboard new Sales team members</li>
-                    <li><span class="greencheck">&check;</span>Review editorial calendar</li>
+                    <li><div class="redcross">&cross;</div><span>Schedule meeting with Alex</span>
+                    </li>
+                    <li><div  class="greencheck">&check;</div><span>Homepage refresh</span>
+                        <div class="box bg-pink">Website</div>
+                    </li>
+                    <li><div class="greencheck">&check;</div><span>Onboard new Sales team members</span>
+                        <div class="box bg-applegreen">Sales</div>
+                    </li>
+                    <li><div class="greencheck">&check;</div><span>Review editorial calendar</span>
+                        <div class="box bg-bluesky">Editorial</div>
+                    </li>
                 </ul>
             </details>
         </article>
